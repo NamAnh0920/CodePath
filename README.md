@@ -56,11 +56,11 @@ The following **additional** features are implemented:
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
   
-  If I have more time to work on the project, I want to add an option so that player can choose the length of the game. For example if our player willing to play until they cannot pass. We can set an endless mode in order to do that, so instead of create a pattern before the game, we will generate random patterns during the game. I may create the endless mode by adding the create pattern function with parameter (1) to the guess function.
+        If I have more time to work on the project, I want to add an option so that player can choose the length of the game. For example if our player willing to play until they cannot pass. We can set an endless mode in order to do that, so instead of create a pattern before the game, we will generate random patterns during the game. I may create the endless mode by adding the create pattern function with parameter (1) to the guess function.
   
-  Another feature I want to create is shuffling. When the player reach a certain level, I want to shuffle the buttons (keep the color and sound, only change the position of the buttons) and create a reflect game. To do this, I am thinking of recreating the buttons using DOM with random functions. By creating a set of buttons with JavaScript, I can manipulate (theoractically) te position of each buttons.
+        Another feature I want to create is shuffling. When the player reach a certain level, I want to shuffle the buttons (keep the color and sound, only change the position of the buttons) and create a reflect game. To do this, I am thinking of recreating the buttons using DOM with random functions. By creating a set of buttons with JavaScript, I can manipulate (theoractically) te position of each buttons.
   
-  Lastlt, when they win (or lose) we can set a record of which level are they at. I will set the time and keep track of the progess using a variable and alert it when the game ends.
+        Lastlt, when they win (or lose) we can set a record of which level are they at. I will set the time and keep track of the progess using a variable and alert it when the game ends.
 
 ## Interview Recording URL Link
 
