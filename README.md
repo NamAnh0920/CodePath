@@ -52,6 +52,10 @@ The following **additional** features are implemented:
   I have a bit trouble to read the given code 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
+      After I finish my submission, I have learnt a lot more about web component such as front-end (similar to what I did in my submission) and back-end. I believe that back end is a crucial component of a website and while doing the submission, I have a chance to read about how PHP or Node.js possibly work underneath a website. While CSS, JavaScript and HTML allow user to interact with the website, the back-end cover the logical, the procedure under the website. So, with all the research I have made into the submission, I really hope to have more hand-on experiences on the back-end during the internship
+      I also fascinate about the security of the website. I want to have a deeper understand of JavaScript as well as many other web-related language in order to protect myself and hoping in the future to pursue a Penetration Tester. In order to achieve that goal, having a solid base about website and its components are essential.
+
   
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
