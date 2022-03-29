@@ -37,12 +37,12 @@ The following **additional** features are implemented:
 - [ ] List anything else that you can get done to improve the app!
 
 ## Video Walkthrough (GIF)
-
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+1. Lose
+  https://github.com/NamAnh0920/CodePath/blob/main/gif/lose.gif
+2. Win
+  https://github.com/NamAnh0920/CodePath/blob/main/gif/win.gif
+3. Speed Change
+  https://github.com/NamAnh0920/CodePath/blob/main/gif/speendChange.gif
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -52,12 +52,12 @@ If you recorded multiple GIFs for all the implemented features, you can add them
   I have a bit trouble to read the given code 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+  
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
-
-
+  If I have more time to work on the project, I want to add an option so that player can choose the length of the game. For example if our player willing to play until they cannot pass. We can set an endless mode in order to do that, so instead of create a pattern before the game, we will generate random patterns during the game. I may create the endless mode by adding the create pattern function with parameter (1) to the guess function.
+  Another feature I want to create is shuffling. When the player reach a certain level, I want to shuffle the buttons (keep the color and sound, only change the position of the buttons) and create a reflect game. To do this, I am thinking of recreating the buttons using DOM with random functions. By creating a set of buttons with JavaScript, I can manipulate (theoractically) te position of each buttons.
+  Lastlt, when they win (or lose) we can set a record of which level are they at. I will set the time and keep track of the progess using a variable and alert it when the game ends.
 
 ## Interview Recording URL Link
 
