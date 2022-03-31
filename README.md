@@ -50,7 +50,12 @@ The following **additional** features are implemented:
       I use w3school to learn the syntax of HTML, JavaScript and CSS. I use JavaScript.com to learn more about JavaScript and how to implement functions as well as JavaScript datatype manipulation. I also use https://developer.mozilla.org to have a general idea what JavaScript about as well as how do HTML, JavaScript, and CSS element produce our website. I also encounter Bootstrap.com when looking at CSS implementation and design but decide not to use those templates. For debugging, I use Stack Overflow as the main source and manually debug on Glitch.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-  I have a bit trouble to read the given code 
+      
+      While building the website, I have trouble on understanding how JavaScript code works in HTML or CSS and vice versa. For example, my button function was not applied hidden and was not been enabled to click. So, I have to read about Handler and how it works on HTML so that I can embed the JavaScript on each element. Now, I have a good understand about Handler and I even explore that some Handlers are vulnerable in JavaScript.
+      
+      Another frustration I encountered was implement the code. I try to implement the random aspect of the game (where the pattern will be randomly selected instead of a fix pattern), but my bound on the random generator was wrong (never got to the 4th button). By trying a lot of times, I notice that the 4th button was not selected over around 10 times, so I need to run through the code again and correct the error.
+      
+      Finally, my biggest concern was the design and CSS programming. I have a hard time imagine the design and how would the code in CSS would present in HTML. The images that I upload was not filling the correct spot, so I have to use w3school and google to correct it. I also need to try a lot of different scale and numbers to fix the size of an element. I felt that the design part was the most abstract part for me and it took me a lot of time to create a proper outlook of the website. To make it easier to imagine, I need to get pen and paper to draw the web out on paper and calculate the position so that I have a good estimation. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 
