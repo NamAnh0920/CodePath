@@ -46,7 +46,8 @@ The following **additional** features are implemented:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-  I use w3school for the syntax and stackoverflow for debugging
+ 
+      I use w3school to learn the syntax of HTML, JavaScript and CSS. I use JavaScript.com to learn more about JavaScript and how to implement functions as well as JavaScript datatype manipulation. I also use https://developer.mozilla.org to have a general idea what JavaScript about as well as how do HTML, JavaScript, and CSS element produce our website. I also encounter Bootstrap.com when looking at CSS implementation and design but decide not to use those templates. For debugging, I use Stack Overflow as the main source and manually debug on Glitch.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
   I have a bit trouble to read the given code 
