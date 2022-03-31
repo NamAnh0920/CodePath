@@ -176,6 +176,12 @@ input {
   margin:2px;
 }
 
+#gameButtonArea > button > img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+}
+
 #gameButtonArea > #button1 {
     background: lightgreen;
 }
