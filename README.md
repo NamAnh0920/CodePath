@@ -45,6 +45,8 @@ The following **additional** features are implemented:
   https://github.com/NamAnh0920/CodePath/blob/main/gif/win.gif
 3. Speed Change
   https://github.com/NamAnh0920/CodePath/blob/main/gif/speedChange.gif
+4. Custom Play
+  https://github.com/NamAnh0920/CodePath/blob/main/gif/custom.gif
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
