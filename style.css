@@ -1,20 +1,3 @@
-/******************************************************************************
-START Glitch hello-app default styles
-
-The styles in this section do some minimal CSS resets, set default fonts and 
-colors, and handle the layout for our footer and "Remix on Glitch" button. If
-you're new to CSS they may seem a little complicated, but you can scroll down
-to this section's matching END comment to see page-specific styles.
-******************************************************************************/
-
-
-/* 
-  The style rules specify elements by type and by attributes such as class and ID
-  Each section indicates an element or elements, then lists the style properties to apply
-  See if you can cross-reference the rules in this file with the elements in index.html
-*/
-
-/* Our default values set as CSS variables */
 :root {
   --color-bg: #69F7BE;
   --color-text-main: #000000;
@@ -106,9 +89,6 @@ a:not(.btn--remix):visited {
 .divider {
   padding: 0 1rem;
 }
-/******************************************************************************
-END Glitch hello-app default styles
-******************************************************************************/
 
 body {
   font-family: HK Grotesk;
@@ -212,6 +192,38 @@ input {
 
 #gameButtonArea > #button4:active, #button1.lit {
     background:yellow;
+}
+
+#gameButtonArea > #button5 {
+    background: crimson;
+}
+
+#gameButtonArea > #button5:active, #button5.lit {
+    background: brown;
+}
+
+#gameButtonArea > #button6 {
+    background: azure;
+}
+
+#gameButtonArea > #button6:active, #button6.lit {
+    background: cyan;
+}
+
+#gameButtonArea > #button7 {
+    background: darkgrey;
+}
+
+#gameButtonArea > #button7:active, #button7.lit {
+    background: grey;
+}
+
+#gameButtonArea > #button8 {
+    background: lemonchiffon;
+}
+
+#gameButtonArea > #button8:active, #button8.lit {
+    background: khaki;
 }
 
 .hidden {

@@ -29,12 +29,14 @@ The following **optional** features are implemented:
 * [x] Computer picks a different pattern each time the game is played
 * [x] Player only loses after 3 mistakes (instead of on the first mistake)
 * [x] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [x] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+* [x] Player can custom how many buttons to play (up to 8)
+* [x] Player can play up to 200 round
+* [x] Game button can be randomly placed
 
 ## Video Walkthrough (GIF)
 1. Lose

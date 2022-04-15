@@ -6,6 +6,8 @@ let guessCnt = 0;
 let guessWrong = 0;
 let level = 1;
 let tonePlaying = false;
+let btnAdd = 4;
+let last = 8;
 
 let clueHoldTime = 1000;
 let nextClueWaitTime = 1000;
@@ -22,7 +24,7 @@ o.start(0)
 
 function createPattern(length) {
   for (let i = 0; i < length; i++) {
-    pattern.push(Math.floor(Math.random()*4 + 1));
+    pattern.push(Math.floor(Math.random()*btnAdd + 1));
   }
 }
 
@@ -76,9 +78,55 @@ function slowDown() {
   }
 }
 
+function setUp() {
+  let setting = document.getElementById("setting").value;
+  if (setting == "custom") {
+    document.getElementById("moreBtn").classList.remove("hidden");
+    document.getElementById("lessBtn").classList.remove("hidden");
+  } else if (setting == "random") {
+    for (var i = 8; i > btnAdd; i--) {
+      document.getElementById("button".concat(i.toString())).classList.remove("hidden");
+    }
+    btnAdd = 8;
+    let setup = document.getElementById("gameButtonArea")
+    for (var i = setup.children.length; i >= 0; i--) {
+        setup.appendChild(setup.children[Math.random() * i | 0]);
+    }
+  } else {
+    for (let i = 5; i < 9; i++) {
+      let temp = "button".concat(i.toString());
+      document.getElementById(temp).classList.add("hidden");
+    }
+    document.getElementById("moreBtn").classList.add("hidden");
+    document.getElementById("lessBtn").classList.add("hidden");
+  }
+}
+
+function moreBtn() {
+  btnAdd++;
+  if (btnAdd > 8) {
+    btnAdd = 8;
+    return;
+  }
+  document.getElementById("button".concat(btnAdd.toString())).classList.remove("hidden");
+}
+
+function lessBtn() {
+  if (btnAdd <= 4) {
+    btnAdd = 4;
+    return;
+  }
+  document.getElementById("button".concat(btnAdd.toString())).classList.add("hidden");
+  btnAdd--;
+}
 
 function startGame() {
-  createPattern(8);
+  let setting = document.getElementById("setting").value;
+  if (setting == "random") {
+    createPattern(200);
+  } else {
+    createPattern(8);
+  }
   gamePlaying = true;
   progress = 0;
   document.getElementById("startBtn").classList.add("hidden");
@@ -108,10 +156,14 @@ function clearButton(btn){
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 260,
-  2: 330,
-  3: 392,
-  4: 466.2
+  1: 261.63,
+  2: 293.66,
+  3: 329.63,
+  4: 349.23,
+  5: 392.00,
+  6: 440.00,
+  7: 493.88,
+  8: 523.25
 }
 
 function playTone(btn,len){ 
