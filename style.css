@@ -176,6 +176,12 @@ input {
   margin:2px;
 }
 
+#gameButtonArea > button > img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+}
+
 #gameButtonArea > #button1 {
     background: lightgreen;
 }
@@ -206,6 +212,38 @@ input {
 
 #gameButtonArea > #button4:active, #button1.lit {
     background:yellow;
+}
+
+#gameButtonArea > #button5 {
+    background: crimson;
+}
+
+#gameButtonArea > #button5:active, #button5.lit {
+    background: brown;
+}
+
+#gameButtonArea > #button6 {
+    background: azure;
+}
+
+#gameButtonArea > #button6:active, #button6.lit {
+    background: cyan;
+}
+
+#gameButtonArea > #button7 {
+    background: darkgrey;
+}
+
+#gameButtonArea > #button7:active, #button7.lit {
+    background: grey;
+}
+
+#gameButtonArea > #button8 {
+    background: lemonchiffon;
+}
+
+#gameButtonArea > #button8:active, #button8.lit {
+    background: khaki;
 }
 
 .hidden {

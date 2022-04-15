@@ -69,12 +69,23 @@
         </div>
         <button id="startBtn" onclick="startGame()">Start!</button>
         <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
-        
+        <select id="setting" onchange="setUp()">
+          <option value="none" selected disabled hidden>Select an Option</option>
+          <option value="default">Default</option>
+          <option value="custom">Custom</option>
+          <option value="random">Let's have some fun</option>
+        </select>
+        <button id="moreBtn" class="hidden" onclick="moreBtn()">More!</button>
+        <button id="lessBtn" class="hidden" onclick="lessBtn()">Less!</button>
         <div id="gameButtonArea">
-          <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img src="./image/image1.jpg"></button>
+          <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img src="./assets/image1.jpg"></button>
           <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"><img src="./image/image2.jpg"></button>
           <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"><img src="./image/image3.jpg"></button>
           <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"><img src="./image/image4.jpg"></button>
+          <button id="button5" class="hidden" onclick="guess(4)" onmousedown="startTone(5)" onmouseup="stopTone()"><img src="./image/image5.jpg"></button>
+          <button id="button6" class="hidden" onclick="guess(4)" onmousedown="startTone(6)" onmouseup="stopTone()"><img src="./image/image6.jpg"></button>
+          <button id="button7" class="hidden" onclick="guess(4)" onmousedown="startTone(7)" onmouseup="stopTone()"><img src="./image/image7.jpg"></button>
+          <button id="button8" class="hidden" onclick="guess(4)" onmousedown="startTone(8)" onmouseup="stopTone()"><img src="./image/image8.jpg"></button>
         </div>
       </div>
     </div>
